@@ -1,5 +1,5 @@
 //需要wraperror，可以让调用方知道哪句sql报错，若发现查询不到则记录查询sql，并继续执行下面的查询任务，以此类推，等待所有查询sql执行完毕后查看哪些sql返回失败。
-
+//需要现在当前目录创建message.log文件用于输出日志
 package main
 
 import (
